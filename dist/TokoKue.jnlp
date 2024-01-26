@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TokoKue.jnlp">
+  <information>
+    <title>TokoKue</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TokoKue.jar" size="134495" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="37129" download="eager" />
+    <jar href="lib\javafx.base.jar" size="745853" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2551585" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="130063" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4248656" download="eager" />
+    <jar href="lib\javafx.media.jar" size="275934" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="89632" download="eager" />
+    <jar href="lib\javafx.web.jar" size="721477" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="tokokue.TokoKue"  name="TokoKue" />
+  <update check="always"/>
+</jnlp>
